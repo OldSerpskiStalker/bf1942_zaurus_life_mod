@@ -30,7 +30,7 @@ ObjectTemplate.explosionForceMax 600
 ObjectTemplate.explosionDamage 0.0
 ObjectTemplate.HitPoints 30
 ObjectTemplate.MaxHitPoints 30
-ObjectTemplate.timeToLiveAfterDeath 10
+ObjectTemplate.timeToLiveAfterDeath 99999999999999999999999999999999999999999999999999999999999999999999999999999
 
 ObjectTemplate.SpeedMod 0.5
 ObjectTemplate.angleMod 1

@@ -21,8 +21,9 @@ ObjectTemplate.exitTimer 0.75
 ObjectTemplate.hitpoints 60
 ObjectTemplate.maxhitpoints 60
 ObjectTemplate.material 45
-ObjectTemplate.criticalDamage 8
-ObjectTemplate.hpLostWhileCriticalDamage 2
+ObjectTemplate.criticalDamage 12
+ObjectTemplate.hpLostWhileCriticalDamage 0.05
+ObjectTemplate.timetoliveafterdeath 99999999999999999999999999999999999999999999999999999999999999999999999999999
 ObjectTemplate.explosionForceMod 20
 ObjectTemplate.hpLostWhileUpSideDown 5
 ObjectTemplate.hpLostWhileDamageFromWater 5

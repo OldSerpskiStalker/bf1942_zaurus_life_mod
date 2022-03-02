@@ -20,9 +20,10 @@ ObjectTemplate.exitTimer 1
 ObjectTemplate.hitpoints 50
 ObjectTemplate.Maxhitpoints 50
 ObjectTemplate.material 45
-ObjectTemplate.criticalDamage 6
 ObjectTemplate.explosionForceMod 15
-ObjectTemplate.hpLostWhileCriticalDamage 1
+ObjectTemplate.criticalDamage 12
+ObjectTemplate.hpLostWhileCriticalDamage 0.05
+ObjectTemplate.timetoliveafterdeath 99999999999999999999999999999999999999999999999999999999999999999999999999999
 ObjectTemplate.hpLostWhileUpSideDown 5
 ObjectTemplate.hpLostWhileDamageFromWater 5
 ObjectTemplate.addArmorEffect 30 e_KatyushaDamage 0/0.5/2.5

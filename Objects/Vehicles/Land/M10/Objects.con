@@ -20,7 +20,8 @@ ObjectTemplate.hitpoints 100
 ObjectTemplate.maxhitpoints 100
 ObjectTemplate.material 50
 ObjectTemplate.criticalDamage 12
-ObjectTemplate.hpLostWhileCriticalDamage 1.5
+ObjectTemplate.hpLostWhileCriticalDamage 0.05
+ObjectTemplate.timetoliveafterdeath 99999999999999999999999999999999999999999999999999999999999999999999999999999
 ObjectTemplate.explosionForceMod 6
 ObjectTemplate.hpLostWhileUpSideDown 7
 ObjectTemplate.hpLostWhileDamageFromWater 7

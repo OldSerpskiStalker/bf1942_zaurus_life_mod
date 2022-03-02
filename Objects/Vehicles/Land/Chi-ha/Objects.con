@@ -13,9 +13,10 @@ ObjectTemplate.hasArmor 1
 ObjectTemplate.hitpoints 100
 ObjectTemplate.maxhitpoints 100
 ObjectTemplate.material 50
-ObjectTemplate.criticalDamage 12
 ObjectTemplate.explosionForceMod 10
-ObjectTemplate.hpLostWhileCriticalDamage 1.5
+ObjectTemplate.criticalDamage 12
+ObjectTemplate.hpLostWhileCriticalDamage 0.05
+ObjectTemplate.timetoliveafterdeath 99999999999999999999999999999999999999999999999999999999999999999999999999999
 ObjectTemplate.hpLostWhileUpSideDown 10
 ObjectTemplate.hpLostWhileDamageFromWater 10
 ObjectTemplate.addArmorEffect 50 e_PanzDamage 0/0.5/-1.4
