@@ -1,0 +1,13 @@
+
+renderer.beginGlobalCluster Sub7C
+
+GeometryTemplate.create StandardMesh SubVII_Hull_M1
+GeometryTemplate.file SubVII_Hull_M1
+GeometryTemplate.setLodDistance 0 0
+GeometryTemplate.setLodDistance 1 30
+GeometryTemplate.setLodDistance 2 50
+GeometryTemplate.setLodDistance 3 100
+GeometryTemplate.setLodDistance 4 200
+GeometryTemplate.setLodDistance 5 500
+
+renderer.endGlobalCluster

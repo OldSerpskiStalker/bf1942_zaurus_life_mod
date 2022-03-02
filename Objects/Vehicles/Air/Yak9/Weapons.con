@@ -1,0 +1,49 @@
+
+
+rem *** Yak9GunBarrel ***
+ObjectTemplate.create FireArms Yak9Guns
+ObjectTemplate.setNetworkableInfo PlaneFireArmInfo
+ObjectTemplate.loadSoundScript Sounds/yak9MG.ssc
+ObjectTemplate.aiTemplate Yak9MachineGun
+rem -------------------------------------
+ObjectTemplate.visibleBarrelTemplate e_MuzzHeavy 
+rem -------------------------------------
+ObjectTemplate.projectileTemplate Yak9Projectile
+ObjectTemplate.projectilePosition 0/0/2
+ObjectTemplate.setTracerTemplate Tracer_Projectile CRD_NONE/3/0/0
+ObjectTemplate.magSize 900
+ObjectTemplate.numOfMag 1
+ObjectTemplate.velocity 400
+ObjectTemplate.roundOfFire 12
+ObjectTemplate.addFireArmsPosition 2.0/-0.3/0.8 -1.6/0/0
+ObjectTemplate.addFireArmsPosition -2.0/-0.3/0.8 1.6/0/0
+ObjectTemplate.AmmoType	10
+
+
+rem *** Yak9Projectile ***
+ObjectTemplate.create Projectile Yak9Projectile
+ObjectTemplate.createNotInGrid 1
+rem ObjectTemplate.geometry tracklight_m1
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.hasResponsePhysics 1
+ObjectTemplate.timeToLive CRD_NONE/1.5/0/0
+ObjectTemplate.gravityModifier 0
+ObjectTemplate.material 213
+ObjectTemplate.material2 -1
+ObjectTemplate.stopAtEndEffect 1
+ObjectTemplate.hasCollisionEffect 1
+
+
+rem *** Yak9BombDummy ***
+ObjectTemplate.create FireArms Yak9BombDummy
+ObjectTemplate.setNetworkableInfo PlaneFireArmInfo
+ObjectTemplate.projectileTemplate FighterBomb
+ObjectTemplate.projectilePosition 0/-0.8/-0.2
+ObjectTemplate.magSize 15
+ObjectTemplate.numOfMag 1
+ObjectTemplate.velocity 0
+ObjectTemplate.roundOfFire 0.2
+ObjectTemplate.setInputFire c_PIAltFire
+ObjectTemplate.aiTemplate Yak9Bombs
+ObjectTemplate.AmmoType	9

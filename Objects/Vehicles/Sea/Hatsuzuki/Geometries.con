@@ -1,0 +1,60 @@
+GeometryTemplate.create StandardMesh Hatsuzuki_M1
+GeometryTemplate.file Hatsuzuki_M1
+GeometryTemplate.setLodDistance 0 0
+GeometryTemplate.setLodDistance 1 25
+GeometryTemplate.setLodDistance 2 50
+GeometryTemplate.setLodDistance 3 75
+GeometryTemplate.setLodDistance 4 300
+GeometryTemplate.setLodDistance 5 500
+
+GeometryTemplate.create StandardMesh Hatsuzuki_L1
+GeometryTemplate.file Hatsuzuki_L1
+
+renderer.beginGlobalCluster Hatsuzuki
+
+GeometryTemplate.create StandardMesh Hatsuzuki_cannon_pipe_M1
+GeometryTemplate.file Hatsuzuki_cannon_pipe_M1
+GeometryTemplate.setLodDistance 0 0
+GeometryTemplate.setLodDistance 1 25
+GeometryTemplate.setLodDistance 2 50
+GeometryTemplate.setLodDistance 3 75
+GeometryTemplate.setLodDistance 4 100
+GeometryTemplate.setLodDistance 5 200
+
+GeometryTemplate.create StandardMesh Hatsuzuki_cannon_M1
+GeometryTemplate.file Hatsuzuki_cannon_M1
+GeometryTemplate.setLodDistance 0 0
+GeometryTemplate.setLodDistance 1 25
+GeometryTemplate.setLodDistance 2 50
+GeometryTemplate.setLodDistance 3 75
+GeometryTemplate.setLodDistance 4 100
+GeometryTemplate.setLodDistance 5 200
+
+GeometryTemplate.create StandardMesh Hatsuzuki_propeller_M1
+GeometryTemplate.file Hatsuzuki_propeller_M1
+GeometryTemplate.setLodDistance 0 0
+GeometryTemplate.setLodDistance 1 10
+GeometryTemplate.setLodDistance 2 20
+GeometryTemplate.setLodDistance 3 50
+GeometryTemplate.setLodDistance 4 100
+GeometryTemplate.setLodDistance 5 150
+
+GeometryTemplate.create StandardMesh Hatsuzuki_Radar_m1
+GeometryTemplate.file Hatsuzuki_Radar_m1
+GeometryTemplate.setLodDistance 0 0
+GeometryTemplate.setLodDistance 1 50
+GeometryTemplate.setLodDistance 2 75
+GeometryTemplate.setLodDistance 3 100
+GeometryTemplate.setLodDistance 4 150
+GeometryTemplate.setLodDistance 5 250
+
+GeometryTemplate.create StandardMesh Hatsuzuki_rudder_M1
+GeometryTemplate.file Hatsuzuki_rudder_M1
+GeometryTemplate.setLodDistance 0 0
+GeometryTemplate.setLodDistance 1 25
+GeometryTemplate.setLodDistance 2 50
+GeometryTemplate.setLodDistance 3 75
+GeometryTemplate.setLodDistance 4 100
+GeometryTemplate.setLodDistance 5 200
+
+renderer.endGlobalCluster
